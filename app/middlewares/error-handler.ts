@@ -15,7 +15,7 @@ export function appError(app: Koa): void {
         await ctx.render('error');
         ctx.status = 500;
     });
-};
+}
 
 /**
  * 处理 404 错误
